@@ -31,7 +31,7 @@ public class Serializzazione {
             ObjectOutputStream OS = new ObjectOutputStream(FO);
             OS.writeObject(9);
             OS.writeObject("Ciao");
-            OS.writeObject(0.345);
+            OS.writeFloat((float) 0.345);
             //OS.writeObject(false);
             //OS.writeObject('a');
             OS.flush();
